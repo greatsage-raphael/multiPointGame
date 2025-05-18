@@ -94,4 +94,4 @@ npm run dev
 
 
 ### Screen Recording (Optional):
-A short screen recording demonstrating the application features with multiple browser windows can be viewed here: [Link to your GIF/video if you create one]
+A short screen recording demonstrating the application features with multiple browser windows can be viewed here: [https://www.loom.com/share/565f87d8493e4f14afd2148ce007634e?sid=6ea1dc09-dd6e-4fd8-9141-521af227c308]
