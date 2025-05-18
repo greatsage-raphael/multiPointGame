@@ -14,7 +14,7 @@ The project is organized into two main directories within the root `multi-round-
 -   `backend/`: Contains the NestJS (TypeScript) application that serves as the WebSocket server. It manages game state, player connections, round progression, and winner determination.
 -   `frontend/`: Contains the React (TypeScript with Vite) application for the client-side user interface. It handles user input, displays game information, visual elements like spinners and timers, and communicates with the backend via WebSockets.
 
-A more detailed breakdown:
+## Project Structure
 
 multi-round-points/
 ├── backend/
@@ -28,9 +28,9 @@ multi-round-points/
 │ ├── package.json # Backend dependencies and scripts
 │ ├── tsconfig.build.json
 │ └── tsconfig.json
-|
+│
 ├── frontend/
-│ ├── public/ # Static assets 
+│ ├── public/ # Static assets
 │ ├── src/
 │ │ ├── components/ # Reusable React UI components
 │ │ │ ├── GameInfo.tsx # Displays round, status, winners
@@ -47,7 +47,7 @@ multi-round-points/
 │ ├── tsconfig.json
 │ ├── tsconfig.node.json
 │ └── vite.config.ts
-|
+│
 └── README.md # This file
 
 
