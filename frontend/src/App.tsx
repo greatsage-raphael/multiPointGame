@@ -8,7 +8,7 @@ import PlayerCard from './components/PlayerCard';
 import GameInfo from './components/GameInfo';
 import type { Player, FullGameState } from './types';
 
-const SOCKET_SERVER_URL = 'http://localhost:3001';
+const SOCKET_SERVER_URL = 'https://multipointgame-1.onrender.com/';
 
 function App() {
   const [socket, setSocket] = useState<Socket | null>(null);
