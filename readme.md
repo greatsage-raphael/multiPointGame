@@ -14,42 +14,6 @@ The project is organized into two main directories within the root `multi-round-
 -   `backend/`: Contains the NestJS (TypeScript) application that serves as the WebSocket server. It manages game state, player connections, round progression, and winner determination.
 -   `frontend/`: Contains the React (TypeScript with Vite) application for the client-side user interface. It handles user input, displays game information, visual elements like spinners and timers, and communicates with the backend via WebSockets.
 
-## Project Structure
-
-multi-round-points/
-├── backend/
-│ ├── src/
-│ │ ├── app.gateway.ts # Core WebSocket logic, game state, and event handling
-│ │ ├── app.module.ts # NestJS root module configuration
-│ │ └── main.ts # NestJS application entry point and server setup
-│ ├── .eslintrc.js
-│ ├── .prettierrc
-│ ├── nest-cli.json
-│ ├── package.json # Backend dependencies and scripts
-│ ├── tsconfig.build.json
-│ └── tsconfig.json
-│
-├── frontend/
-│ ├── public/ # Static assets
-│ ├── src/
-│ │ ├── components/ # Reusable React UI components
-│ │ │ ├── GameInfo.tsx # Displays round, status, winners
-│ │ │ ├── PlayerCard.tsx # Displays individual player info, avatar, spinner, trophy
-│ │ │ ├── Spinner.tsx # Visual spinning element
-│ │ │ └── UsernameInput.tsx # Form for user to enter their name
-│ │ ├── App.css # Main application styles
-│ │ ├── App.tsx # Root React component, manages state and WebSocket client logic
-│ │ ├── vite-env.d.ts # Vite environment type definitions
-│ │ ├── main.tsx # React application entry point (renders App.tsx)
-│ │ └── types.ts # Shared TypeScript type definitions for frontend state
-│ ├── index.html # Main HTML file for the React app
-│ ├── package.json # Frontend dependencies and scripts
-│ ├── tsconfig.json
-│ ├── tsconfig.node.json
-│ └── vite.config.ts
-│
-└── README.md # This file
-
 
 ## Core Technologies Used
 
